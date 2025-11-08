@@ -15,9 +15,9 @@ MAIL_PASSWORD=your_app_specific_password
 MAIL_USE_TLS=True
 MAIL_DEFAULT_SENDER=yourgmail@gmail.com
 
-
 myshop/
-├─ app.py
+│
+├── app/
 ├─ requirements.txt
 ├─ static/
 │  ├─ uploads/            # product images will be stored here
@@ -35,6 +35,14 @@ myshop/
    ├─ order_confirmation.html
    ├─ forgot_password.html
    └─ reset_link_sent.html
+
+
+/upload-product
+├── .env
+├── run.py
+└── requirements.txt
+
+
 
 
 /upload-product
